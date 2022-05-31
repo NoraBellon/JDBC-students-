@@ -12,5 +12,5 @@ StudentFormatDaoImpl realization short info:
 a) EACH METHOD MUST DO THIS OWN SINGLE CONNCETION TO OUR TABLE "STUDENTS'. 
 b) There are reasons why we use PreparedStatemnt or Statement.
 
-4. StudentServerImpl implements StudentServer and have injected StudentFormatDao. Its methods are just frames of these which realized in StudentFormatDaoImpl. It must be for making an interface for user and seperate this interfaces from direct cooperation with db.
+4. StudentServerImpl implements StudentServer and have injected StudentFormatDao. Its methods are just frames of these which that are realized in StudentFormatDaoImpl. It must be for making an interface for user and seperate this interfaces from direct cooperation with db.
 
